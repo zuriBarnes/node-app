@@ -35,6 +35,3 @@ app.use((req, res) => {
 //   res.sendFile("./views/404.html", { root: __dirname });
 // });
 
-let nums = [1, 1, 2, 3, 4];
-const moreNums = [...nums, 124, 444];
-console.log(moreNums);
