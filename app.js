@@ -10,8 +10,8 @@ app.listen(3000);
 
 app.get("/", (req, res) => {
   const blogs = [
-    // { title: "Mario", snippet: "ffhjfdp[j[pkryjk" },
-    // { title: "Ryu", snippet: "gkegpsts" },
+    // { title: "Mario", snippet: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nulla" },
+    // { title: "Ryu", snippet: "      Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nulla odit iusto, laudantium dolores unde aliquid adipisci reprehenderit. Repellat natus dignissimos quis est." },
     // { title: "Star", snippet: "poergjfnfkwkg" },
   ];
   res.render("index", { title: "Home", blogs });
